@@ -1,0 +1,77 @@
+ /* 技能表格样式 */
+.skill-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-table th,
+.skill-table td {
+  padding: 12px 16px;
+  text-align: center; 
+  border-bottom: 1px solid #eaf5df;
+}
+
+.skill-table th {
+  background-color: #88c060;
+  color: #fff;
+}
+
+.skill-table tbody tr:hover {
+  background-color: #f8fdf3;
+}
+
+/* 表单样式 */
+.form-title {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.skill-form {
+  display: inline-block; 
+  text-align: left; 
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-form .form-group {
+  margin-bottom: 16px;
+}
+
+.skill-form label {
+  display: inline-block;
+  width: 80px; 
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.skill-form input,
+.skill-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 200px;
+}
+
+.submit-btn {
+  background-color: #88c060;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #669933;
+}
